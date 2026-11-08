@@ -19,3 +19,5 @@
 **Quy tắc học nhanh:** đọc 10 phút → mở Godot **tự tay làm** 20 phút (project đặt tên `Lab`, mỗi chương một scene thử nghiệm) → đóng tài liệu và giải thích lại bằng lời của mình. Nếu giải thích được cho người khác (hay cho chính mình) là bạn đã hiểu.
 
 ---
+
+**Tiếp thoe:** [Task 1](task_1.md)
