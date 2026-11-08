@@ -1,0 +1,2639 @@
+1
+00:00:00,800 --> 00:00:05,758
+Hello and welcome to my brand new GDAU
+
+2
+00:00:03,439 --> 00:00:07,520
+tutorial for 2026.
+
+3
+00:00:05,759 --> 00:00:10,000
+I'm going to be walking you through a
+
+4
+00:00:07,519 --> 00:00:12,079
+complete beginner tutorial for making a
+
+5
+00:00:10,000 --> 00:00:14,240
+platform game. This is for people who
+
+6
+00:00:12,080 --> 00:00:16,640
+have never used GDO before and would
+
+7
+00:00:14,240 --> 00:00:18,879
+like to make their first game and learn
+
+8
+00:00:16,640 --> 00:00:20,800
+how the engine works.
+
+9
+00:00:18,879 --> 00:00:22,000
+This tutorial will be fairly slow, so
+
+10
+00:00:20,800 --> 00:00:24,080
+let's step through some of the things
+
+11
+00:00:22,000 --> 00:00:27,198
+you're going to need to do and know to
+
+12
+00:00:24,079 --> 00:00:29,358
+get started using GDAU. Firstly, let's
+
+13
+00:00:27,199 --> 00:00:33,600
+launch GDAU. I'm currently using GDO
+
+14
+00:00:29,359 --> 00:00:35,359
+4.6. This is currently in dev, so um it
+
+15
+00:00:33,600 --> 00:00:36,960
+hopefully will be out quite soon, so you
+
+16
+00:00:35,359 --> 00:00:39,600
+guys will be able to follow along and
+
+17
+00:00:36,960 --> 00:00:41,679
+nothing will be too different. When you
+
+18
+00:00:39,600 --> 00:00:43,520
+open up GoodDo, firstly, you'll get this
+
+19
+00:00:41,679 --> 00:00:46,799
+project manager. You can see some of my
+
+20
+00:00:43,520 --> 00:00:48,399
+previous 4.5 projects in here. It can be
+
+21
+00:00:46,799 --> 00:00:49,839
+a little bit daunting at times, but I'll
+
+22
+00:00:48,399 --> 00:00:52,079
+step you through and just follow along
+
+23
+00:00:49,840 --> 00:00:55,120
+as we go. You'll want to create yourself
+
+24
+00:00:52,079 --> 00:00:56,799
+a project. um use the top left up there,
+
+25
+00:00:55,119 --> 00:00:58,479
+the little create button, and then
+
+26
+00:00:56,799 --> 00:01:00,000
+you'll get to create a project. I
+
+27
+00:00:58,479 --> 00:01:01,198
+remember seeing this window for the
+
+28
+00:01:00,000 --> 00:01:02,960
+first time, and I was a little bit
+
+29
+00:01:01,198 --> 00:01:05,438
+confused. It doesn't look a lot like a
+
+30
+00:01:02,960 --> 00:01:07,359
+Windows program um because it runs on
+
+31
+00:01:05,438 --> 00:01:09,599
+every platform, so it is a bit weird to
+
+32
+00:01:07,359 --> 00:01:10,879
+get used to. The way that it works
+
+33
+00:01:09,599 --> 00:01:12,798
+though is you just need to set your
+
+34
+00:01:10,879 --> 00:01:14,959
+project path. Make sure you set it to
+
+35
+00:01:12,799 --> 00:01:17,040
+somewhere in your documents. Um I've got
+
+36
+00:01:14,959 --> 00:01:19,759
+an actual GDO project folder that I put
+
+37
+00:01:17,040 --> 00:01:21,600
+all my projects in. It'll automatically,
+
+38
+00:01:19,759 --> 00:01:24,159
+the green text here shows us, it'll
+
+39
+00:01:21,599 --> 00:01:26,559
+automatically create a project folder
+
+40
+00:01:24,159 --> 00:01:28,080
+for all of our files that will go in
+
+41
+00:01:26,560 --> 00:01:30,240
+making up that folder. And it just
+
+42
+00:01:28,079 --> 00:01:31,920
+exists wherever you tell it to exist.
+
+43
+00:01:30,239 --> 00:01:33,759
+I'm going to leave mine as my documents
+
+44
+00:01:31,920 --> 00:01:35,118
+folder. I'm just going to give this a
+
+45
+00:01:33,759 --> 00:01:39,920
+name. I'm going to call it something
+
+46
+00:01:35,118 --> 00:01:41,200
+useful like platform tutorial.
+
+47
+00:01:39,920 --> 00:01:44,719
+Once you've done that, you'll see that
+
+48
+00:01:41,200 --> 00:01:46,159
+it gives it a a name um for the folder.
+
+49
+00:01:44,719 --> 00:01:48,000
+It's going to create a folder for us in
+
+50
+00:01:46,159 --> 00:01:50,479
+that location. I can leave everything
+
+51
+00:01:48,000 --> 00:01:52,159
+else as default and leave on edit now
+
+52
+00:01:50,478 --> 00:01:54,959
+and click create and that should open it
+
+53
+00:01:52,159 --> 00:01:58,079
+up for us. Once you get here, you might
+
+54
+00:01:54,959 --> 00:02:00,639
+get a little bit daunted. Again, um the
+
+55
+00:01:58,078 --> 00:02:03,039
+different ways that we can um use GDAU,
+
+56
+00:02:00,640 --> 00:02:04,478
+we obviously can make 3D games in GDAU.
+
+57
+00:02:03,040 --> 00:02:06,159
+So, there's different windows that we
+
+58
+00:02:04,478 --> 00:02:08,478
+can have in the main viewport in the
+
+59
+00:02:06,159 --> 00:02:10,719
+center here. We can obviously be in 3D,
+
+60
+00:02:08,479 --> 00:02:13,200
+but we can also be in 2D. We can also be
+
+61
+00:02:10,719 --> 00:02:14,959
+in the script view and in the game view.
+
+62
+00:02:13,199 --> 00:02:16,958
+There's even an asset library where you
+
+63
+00:02:14,959 --> 00:02:19,039
+can get a whole lot of useful resources
+
+64
+00:02:16,959 --> 00:02:20,878
+um if you wanted to extend a little bit,
+
+65
+00:02:19,039 --> 00:02:22,719
+but we're going to keep it simple and
+
+66
+00:02:20,878 --> 00:02:25,679
+try and just use the basic stuff right
+
+67
+00:02:22,719 --> 00:02:27,359
+now in our 2D view. Once you're in 2D,
+
+68
+00:02:25,680 --> 00:02:30,159
+there's a few buttons at the top that I
+
+69
+00:02:27,360 --> 00:02:31,599
+want to highlight. Um firstly, uh we
+
+70
+00:02:30,159 --> 00:02:33,280
+want to probably put the grid on. It
+
+71
+00:02:31,598 --> 00:02:35,280
+just makes it a lot easier for us to be
+
+72
+00:02:33,280 --> 00:02:36,878
+able to snap things around. This grid
+
+73
+00:02:35,280 --> 00:02:39,519
+snapping should be on if it isn't
+
+74
+00:02:36,878 --> 00:02:41,840
+already on. On the left hand side we see
+
+75
+00:02:39,519 --> 00:02:44,640
+all of the different um scene types that
+
+76
+00:02:41,840 --> 00:02:46,878
+we can have. GDAU is very scene focused.
+
+77
+00:02:44,639 --> 00:02:50,000
+It's very heavily focused on um each
+
+78
+00:02:46,878 --> 00:02:51,679
+node and the hierarchy of those nodes.
+
+79
+00:02:50,000 --> 00:02:53,840
+And we'll cover that in a few seconds
+
+80
+00:02:51,680 --> 00:02:55,840
+too. The file system on the left is all
+
+81
+00:02:53,840 --> 00:02:58,080
+of the resources that you can find that
+
+82
+00:02:55,840 --> 00:03:00,560
+are in your project. These are literally
+
+83
+00:02:58,080 --> 00:03:03,200
+just drag and drop into this box here
+
+84
+00:03:00,560 --> 00:03:05,120
+from um from your file manager. You can
+
+85
+00:03:03,199 --> 00:03:06,958
+actually just find find this inside the
+
+86
+00:03:05,120 --> 00:03:09,039
+file manager as well. If you just right
+
+87
+00:03:06,959 --> 00:03:11,039
+click on that, you can just say open in
+
+88
+00:03:09,039 --> 00:03:13,359
+file manager and it'll open up and you
+
+89
+00:03:11,039 --> 00:03:15,840
+can see all of the different files. This
+
+90
+00:03:13,360 --> 00:03:18,560
+will include things like scene files,
+
+91
+00:03:15,840 --> 00:03:20,560
+audio files, sprites, etc. Anything that
+
+92
+00:03:18,560 --> 00:03:22,318
+makes up our game, they'll go into this
+
+93
+00:03:20,560 --> 00:03:24,400
+resources and we can organize that with
+
+94
+00:03:22,318 --> 00:03:26,318
+folders, too. On the right hand side
+
+95
+00:03:24,400 --> 00:03:28,000
+here is the inspector. Anything that we
+
+96
+00:03:26,318 --> 00:03:29,759
+have selected when we've got objects,
+
+97
+00:03:28,000 --> 00:03:31,759
+all of the information about that will
+
+98
+00:03:29,759 --> 00:03:33,359
+come up on the right hand side. Some of
+
+99
+00:03:31,759 --> 00:03:36,318
+the important windows up the top here
+
+100
+00:03:33,360 --> 00:03:37,599
+too are the play and stop buttons. So,
+
+101
+00:03:36,318 --> 00:03:40,158
+um, if you want to play the current
+
+102
+00:03:37,598 --> 00:03:41,839
+scene, the shortcut key for this is F6.
+
+103
+00:03:40,158 --> 00:03:43,519
+You can click on that and it'll play the
+
+104
+00:03:41,840 --> 00:03:45,519
+current scene. I don't have a scene, so
+
+105
+00:03:43,519 --> 00:03:47,680
+I can't play it. And this one will play
+
+106
+00:03:45,519 --> 00:03:50,158
+the project. So, whatever scene you have
+
+107
+00:03:47,680 --> 00:03:52,239
+set to your default scene, the starting
+
+108
+00:03:50,158 --> 00:03:54,239
+scene will be the one that runs. And
+
+109
+00:03:52,239 --> 00:03:56,640
+lastly, just to navigate inside the
+
+110
+00:03:54,239 --> 00:03:58,319
+center um view, you can scroll in and
+
+111
+00:03:56,639 --> 00:04:00,318
+scroll out with your mouse wheel. um
+
+112
+00:03:58,318 --> 00:04:02,479
+you'll select things with the left mouse
+
+113
+00:04:00,318 --> 00:04:04,479
+and um you can hold the middle mouse
+
+114
+00:04:02,479 --> 00:04:06,079
+button down to be able to pan the view
+
+115
+00:04:04,479 --> 00:04:08,000
+around. So that way you'll be able to
+
+116
+00:04:06,080 --> 00:04:10,239
+move around this whole thing. What you
+
+117
+00:04:08,000 --> 00:04:12,080
+see is the uh blue lines. This is the
+
+118
+00:04:10,239 --> 00:04:14,080
+actual screen. This is the screen size.
+
+119
+00:04:12,080 --> 00:04:15,840
+This is where your basic canvas is when
+
+120
+00:04:14,080 --> 00:04:17,680
+you start playing. But you can see that
+
+121
+00:04:15,840 --> 00:04:19,358
+we can go out quite a bit and we've got
+
+122
+00:04:17,680 --> 00:04:21,840
+a whole lot of space that we can go
+
+123
+00:04:19,358 --> 00:04:24,399
+right and left. Like most video games,
+
+124
+00:04:21,839 --> 00:04:26,638
+what you see and where the the world is
+
+125
+00:04:24,399 --> 00:04:28,959
+is uh it can change. So, let's get
+
+126
+00:04:26,639 --> 00:04:30,560
+started by making oursel um a little bit
+
+127
+00:04:28,959 --> 00:04:32,879
+of a scene. So, we're just going to
+
+128
+00:04:30,560 --> 00:04:35,040
+start up here with this 2D scene. If you
+
+129
+00:04:32,879 --> 00:04:36,879
+click on that, the default name is node
+
+130
+00:04:35,040 --> 00:04:38,639
+2D. I'm actually going to change this.
+
+131
+00:04:36,879 --> 00:04:41,199
+I'm going to call this level one because
+
+132
+00:04:38,639 --> 00:04:42,639
+this is going to be my scene. Now, one
+
+133
+00:04:41,199 --> 00:04:44,879
+of the things that you'll probably
+
+134
+00:04:42,639 --> 00:04:46,879
+forget to do and uh it can be annoying
+
+135
+00:04:44,879 --> 00:04:48,639
+is you'll forget to save these. If I
+
+136
+00:04:46,879 --> 00:04:51,279
+controll S, which is an excellent
+
+137
+00:04:48,639 --> 00:04:53,600
+shortcut, or I click scene, save scene,
+
+138
+00:04:51,279 --> 00:04:55,918
+it will try and find somewhere in our
+
+139
+00:04:53,600 --> 00:04:57,919
+resources, which is this folder down
+
+140
+00:04:55,918 --> 00:04:59,439
+here, where it can save it. I like to
+
+141
+00:04:57,918 --> 00:05:01,758
+keep things organized, and you should
+
+142
+00:04:59,439 --> 00:05:03,918
+too. So, um, click on this create new
+
+143
+00:05:01,759 --> 00:05:06,160
+folder, and I'm going to create a new
+
+144
+00:05:03,918 --> 00:05:08,719
+folder for all my scenes. Um, you'll
+
+145
+00:05:06,160 --> 00:05:10,880
+notice that we're now choosed
+
+146
+00:05:08,720 --> 00:05:13,520
+that scenes folder, and I'm going to put
+
+147
+00:05:10,879 --> 00:05:15,360
+level one.tsc in in here. What you'll
+
+148
+00:05:13,519 --> 00:05:17,359
+see is we now have the scenes folder in
+
+149
+00:05:15,360 --> 00:05:21,120
+our resources and we also have level
+
+150
+00:05:17,360 --> 00:05:22,879
+1.tscn in there. At any time um I want I
+
+151
+00:05:21,120 --> 00:05:25,199
+can double click this and it'll open up
+
+152
+00:05:22,879 --> 00:05:27,199
+as a tab. If I accidentally close it
+
+153
+00:05:25,199 --> 00:05:29,600
+again I can double click it so that I
+
+154
+00:05:27,199 --> 00:05:32,000
+can see that particular scene and what
+
+155
+00:05:29,600 --> 00:05:33,759
+it contains which is pretty boring and
+
+156
+00:05:32,000 --> 00:05:35,120
+nothing right now. So let's change that.
+
+157
+00:05:33,759 --> 00:05:36,800
+I always think the most important thing
+
+158
+00:05:35,120 --> 00:05:39,918
+to do is probably get a player in there.
+
+159
+00:05:36,800 --> 00:05:41,520
+So let's start by that. The cursor um
+
+160
+00:05:39,918 --> 00:05:43,439
+right up the top left hand side here
+
+161
+00:05:41,519 --> 00:05:45,439
+that's the center. That's the 000
+
+162
+00:05:43,439 --> 00:05:47,680
+position in my world. And what I'm going
+
+163
+00:05:45,439 --> 00:05:49,918
+to do is I'm actually going to make um
+
+164
+00:05:47,680 --> 00:05:51,918
+I'll explain a little bit about um this
+
+165
+00:05:49,918 --> 00:05:54,959
+as we go. But I'm going to make a child
+
+166
+00:05:51,918 --> 00:05:57,359
+node. GDAU works very much around uh
+
+167
+00:05:54,959 --> 00:05:59,279
+children and a hierarchy of nodes. And
+
+168
+00:05:57,360 --> 00:06:01,759
+all the nodes have different purposes as
+
+169
+00:05:59,279 --> 00:06:03,679
+well. So this one is just a standard 2D
+
+170
+00:06:01,759 --> 00:06:05,759
+node, a node 2D. And it's just called
+
+171
+00:06:03,680 --> 00:06:07,519
+level one. It's basically a placeholder.
+
+172
+00:06:05,759 --> 00:06:09,759
+The only properties it really has is a
+
+173
+00:06:07,519 --> 00:06:11,599
+position over here and some of the
+
+174
+00:06:09,759 --> 00:06:13,919
+things like its visibility. So, we can
+
+175
+00:06:11,600 --> 00:06:15,280
+switch it on and off, etc. Um, there's
+
+176
+00:06:13,918 --> 00:06:16,879
+not much else we need to change in
+
+177
+00:06:15,279 --> 00:06:18,959
+there, but the other nodes are a lot
+
+178
+00:06:16,879 --> 00:06:21,038
+more interesting. So, let's add a child
+
+179
+00:06:18,959 --> 00:06:23,439
+node to this level. And we're going to
+
+180
+00:06:21,038 --> 00:06:27,038
+add a character body. Now, the character
+
+181
+00:06:23,439 --> 00:06:28,800
+body 2D node, you can see this um just
+
+182
+00:06:27,038 --> 00:06:30,159
+in type in the search box and you'll get
+
+183
+00:06:28,800 --> 00:06:33,439
+all the different nodes. I could find
+
+184
+00:06:30,160 --> 00:06:35,840
+this through digging down into the node
+
+185
+00:06:33,439 --> 00:06:37,680
+2D. You can see that it's inherited
+
+186
+00:06:35,839 --> 00:06:38,879
+these things, but I don't want to. I'm
+
+187
+00:06:37,680 --> 00:06:40,560
+just going to type it in. It's a lot
+
+188
+00:06:38,879 --> 00:06:42,159
+quicker. I know what I'm looking for.
+
+189
+00:06:40,560 --> 00:06:43,839
+Um, the cool thing is that when you
+
+190
+00:06:42,160 --> 00:06:46,080
+select it down here, you'll get a lot of
+
+191
+00:06:43,839 --> 00:06:49,119
+information about the uh, character body
+
+192
+00:06:46,079 --> 00:06:51,038
+2D just in this little bit of um, text
+
+193
+00:06:49,120 --> 00:06:52,560
+down here. So, you can check through all
+
+194
+00:06:51,038 --> 00:06:54,639
+the different nodes and find out if it's
+
+195
+00:06:52,560 --> 00:06:56,879
+what you really need. This one is a 2D
+
+196
+00:06:54,639 --> 00:06:59,120
+physics body specialized for characters
+
+197
+00:06:56,879 --> 00:07:00,959
+moved by script. This is perfect for
+
+198
+00:06:59,120 --> 00:07:03,759
+what I need. So, I'm just going to click
+
+199
+00:07:00,959 --> 00:07:05,120
+create. Now, we can see already um, it's
+
+200
+00:07:03,759 --> 00:07:06,800
+got a terrible name. I'm going to click
+
+201
+00:07:05,120 --> 00:07:09,598
+on it again. You can also use the
+
+202
+00:07:06,800 --> 00:07:11,199
+shortcut F2 if you want to to rename
+
+203
+00:07:09,598 --> 00:07:12,719
+that. And I'm going to call mine player.
+
+204
+00:07:11,199 --> 00:07:15,199
+It's just much easier to remember and
+
+205
+00:07:12,720 --> 00:07:16,639
+type in if I need to. So player is right
+
+206
+00:07:15,199 --> 00:07:20,000
+here. And you can see a little
+
+207
+00:07:16,639 --> 00:07:22,240
+exclamation mark over here. Now, um the
+
+208
+00:07:20,000 --> 00:07:23,839
+exclamation marks are very very useful.
+
+209
+00:07:22,240 --> 00:07:25,439
+They're going to just keep you right. So
+
+210
+00:07:23,839 --> 00:07:27,519
+always if you see one of these, always
+
+211
+00:07:25,439 --> 00:07:30,240
+read it and find out what it is that's
+
+212
+00:07:27,519 --> 00:07:32,399
+going on. Also, um one of the really
+
+213
+00:07:30,240 --> 00:07:34,000
+important things things to learn about
+
+214
+00:07:32,399 --> 00:07:36,000
+GDAU is that when you have a node
+
+215
+00:07:34,000 --> 00:07:37,918
+selected, um so I have this node over
+
+216
+00:07:36,000 --> 00:07:39,038
+here selected. You can go over and
+
+217
+00:07:37,918 --> 00:07:40,639
+you'll see all of the different
+
+218
+00:07:39,038 --> 00:07:42,719
+properties. You notice this looks
+
+219
+00:07:40,639 --> 00:07:44,720
+different to the level node. We've got
+
+220
+00:07:42,720 --> 00:07:47,199
+some extra information in here that we
+
+221
+00:07:44,720 --> 00:07:49,120
+can use. Also, if you want to find out
+
+222
+00:07:47,199 --> 00:07:51,360
+more information about it, you can click
+
+223
+00:07:49,120 --> 00:07:53,918
+on doc right here. And that will take
+
+224
+00:07:51,360 --> 00:07:56,560
+you to the built-in documentation for
+
+225
+00:07:53,918 --> 00:07:58,240
+that specific node. This is highly
+
+226
+00:07:56,560 --> 00:08:01,120
+useful, including things like having
+
+227
+00:07:58,240 --> 00:08:03,439
+some online tutorials for um finding out
+
+228
+00:08:01,120 --> 00:08:05,918
+more information about it and all of the
+
+229
+00:08:03,439 --> 00:08:07,759
+properties that this object holds.
+
+230
+00:08:05,918 --> 00:08:10,000
+things like how many slides it can do,
+
+231
+00:08:07,759 --> 00:08:12,400
+what it current velocity is, what the up
+
+232
+00:08:10,000 --> 00:08:14,000
+direction it thinks is, and some methods
+
+233
+00:08:12,399 --> 00:08:15,519
+on it that you can see are really,
+
+234
+00:08:14,000 --> 00:08:17,439
+really useful, too. So, you might want
+
+235
+00:08:15,519 --> 00:08:19,198
+to call move and slide if you want to
+
+236
+00:08:17,439 --> 00:08:21,519
+move it inside a script, and I'll cover
+
+237
+00:08:19,199 --> 00:08:23,598
+that soon, too. So, to get back to 2D,
+
+238
+00:08:21,519 --> 00:08:25,359
+and click on the 2D again, and I'm just
+
+239
+00:08:23,598 --> 00:08:26,639
+going to add in an extra node. Now,
+
+240
+00:08:25,360 --> 00:08:28,080
+you'll notice one of the cool things
+
+241
+00:08:26,639 --> 00:08:29,918
+about this, or one of the weird things
+
+242
+00:08:28,079 --> 00:08:32,158
+when you first get used to it, is that
+
+243
+00:08:29,918 --> 00:08:33,838
+the player doesn't look like anything.
+
+244
+00:08:32,158 --> 00:08:35,519
+And that's because this player node
+
+245
+00:08:33,839 --> 00:08:37,919
+doesn't have anything that we can add a
+
+246
+00:08:35,519 --> 00:08:39,918
+sprite to. Its purpose is really just to
+
+247
+00:08:37,918 --> 00:08:42,000
+do what it said in its documentation,
+
+248
+00:08:39,918 --> 00:08:43,278
+just to move around. So, what we're
+
+249
+00:08:42,000 --> 00:08:45,519
+going to do is we're going to add
+
+250
+00:08:43,278 --> 00:08:48,159
+something to make it visible. So, I'm
+
+251
+00:08:45,519 --> 00:08:50,080
+going to add the sprite 2D node to that.
+
+252
+00:08:48,159 --> 00:08:52,000
+If we click on sprite 2D and click
+
+253
+00:08:50,080 --> 00:08:53,440
+create, we'll see we get it down here.
+
+254
+00:08:52,000 --> 00:08:55,039
+Now, I could change the name of this,
+
+255
+00:08:53,440 --> 00:08:56,800
+but I'm not really going to use it very
+
+256
+00:08:55,039 --> 00:08:59,360
+often, so I'm just going to leave it as
+
+257
+00:08:56,799 --> 00:09:00,639
+sprite 2D. Um, you'll see that nothing
+
+258
+00:08:59,360 --> 00:09:02,560
+appeared. It's because it doesn't know
+
+259
+00:09:00,639 --> 00:09:04,000
+what the sprite 2D should look like.
+
+260
+00:09:02,559 --> 00:09:05,759
+Over on the right hand side in the
+
+261
+00:09:04,000 --> 00:09:08,080
+inspector, you'll see there's a texture
+
+262
+00:09:05,759 --> 00:09:09,439
+tab that currently says empty. Now,
+
+263
+00:09:08,080 --> 00:09:12,080
+there's a few ways that you can get
+
+264
+00:09:09,440 --> 00:09:14,399
+textures for this. You can click on
+
+265
+00:09:12,080 --> 00:09:16,959
+quickload or load to find something
+
+266
+00:09:14,399 --> 00:09:18,320
+that's already in your resources. Um, if
+
+267
+00:09:16,958 --> 00:09:20,559
+you really wanted to, you could draw
+
+268
+00:09:18,320 --> 00:09:22,160
+them um yourself and put them in here.
+
+269
+00:09:20,559 --> 00:09:24,958
+But all I'm going to do because I'm lazy
+
+270
+00:09:22,159 --> 00:09:26,559
+is I'm just going to add this icon. SVG.
+
+271
+00:09:24,958 --> 00:09:28,399
+So, I'm going to actually drag and drop
+
+272
+00:09:26,559 --> 00:09:30,319
+it, which is the other method of adding
+
+273
+00:09:28,399 --> 00:09:32,080
+textures to this, straight into that
+
+274
+00:09:30,320 --> 00:09:35,440
+slot. You'll see now that it becomes
+
+275
+00:09:32,080 --> 00:09:37,040
+visible up um inside of the view. One
+
+276
+00:09:35,440 --> 00:09:39,200
+thing I'd like to do before we continue
+
+277
+00:09:37,039 --> 00:09:41,199
+is this sprite's pretty massive compared
+
+278
+00:09:39,200 --> 00:09:43,120
+to my screen. So, I'd quite like to make
+
+279
+00:09:41,200 --> 00:09:44,240
+it smaller. Now, that's where we're
+
+280
+00:09:43,120 --> 00:09:46,959
+going to introduce some of these
+
+281
+00:09:44,240 --> 00:09:48,720
+properties. So, these sprite 2D
+
+282
+00:09:46,958 --> 00:09:50,799
+properties are things like the offset,
+
+283
+00:09:48,720 --> 00:09:52,399
+whether it's centered or not. Um, we can
+
+284
+00:09:50,799 --> 00:09:55,199
+also do things like flipping it
+
+285
+00:09:52,399 --> 00:09:57,360
+horizontally or vertically. Um, we'll
+
+286
+00:09:55,200 --> 00:09:59,278
+come back to those later on when we do
+
+287
+00:09:57,360 --> 00:10:01,200
+um, some more complex stuff. But the one
+
+288
+00:09:59,278 --> 00:10:03,360
+I want to change is the transform here.
+
+289
+00:10:01,200 --> 00:10:05,360
+To change its scale, I can type in
+
+290
+00:10:03,360 --> 00:10:07,200
+values here. And I just want to make it
+
+291
+00:10:05,360 --> 00:10:10,000
+half of the size that it is right now.
+
+292
+00:10:07,200 --> 00:10:12,879
+So, if I type in 0.5, it'll make it
+
+293
+00:10:10,000 --> 00:10:14,559
+half. Um, you can also drag them in the
+
+294
+00:10:12,879 --> 00:10:16,799
+corners like this if you really wanted
+
+295
+00:10:14,559 --> 00:10:19,599
+to. But I feel like the easiest thing is
+
+296
+00:10:16,799 --> 00:10:21,838
+to just choose 0.5 for the scale. And
+
+297
+00:10:19,600 --> 00:10:24,159
+then we'll make it a little bit smaller.
+
+298
+00:10:21,839 --> 00:10:25,920
+Notice that I've changed the sprite 2D.
+
+299
+00:10:24,159 --> 00:10:27,838
+I haven't changed the scale of the
+
+300
+00:10:25,919 --> 00:10:29,439
+player. The player obviously has a
+
+301
+00:10:27,839 --> 00:10:31,600
+transform as well, but we're going to
+
+302
+00:10:29,440 --> 00:10:33,680
+keep that scale at one. So, we're only
+
+303
+00:10:31,600 --> 00:10:36,639
+scaling the sprite underneath it. The
+
+304
+00:10:33,679 --> 00:10:38,399
+next thing is the continued warning.
+
+305
+00:10:36,639 --> 00:10:40,159
+It's telling me that it needs a
+
+306
+00:10:38,399 --> 00:10:42,399
+collision shape 2D or a collision
+
+307
+00:10:40,159 --> 00:10:44,078
+polygon 2D as a child to define it
+
+308
+00:10:42,399 --> 00:10:46,000
+shape. That makes sense because we need
+
+309
+00:10:44,078 --> 00:10:48,159
+to know where it how big it is so we
+
+310
+00:10:46,000 --> 00:10:49,759
+know when we need to stop moving. the
+
+311
+00:10:48,159 --> 00:10:51,439
+player itself. Um, what I'm going to do
+
+312
+00:10:49,759 --> 00:10:53,919
+is I'm going to click on player, right
+
+313
+00:10:51,440 --> 00:10:56,000
+click to add a child node, and then I'm
+
+314
+00:10:53,919 --> 00:10:58,399
+going to search for the collision shape.
+
+315
+00:10:56,000 --> 00:11:01,600
+So, a collision shape 2D is a simple
+
+316
+00:10:58,399 --> 00:11:03,200
+shape. I could do a more complex polygon
+
+317
+00:11:01,600 --> 00:11:04,560
+and draw the shape myself, but I think
+
+318
+00:11:03,200 --> 00:11:06,640
+I'll just stick with a simple shape
+
+319
+00:11:04,559 --> 00:11:09,679
+because it's basically a rectangle. And
+
+320
+00:11:06,639 --> 00:11:11,919
+click create. Again, it's complaining at
+
+321
+00:11:09,679 --> 00:11:14,719
+me how it doesn't have an actual
+
+322
+00:11:11,919 --> 00:11:16,639
+collision shape for it. So, if we click
+
+323
+00:11:14,720 --> 00:11:18,160
+on this again with this selected, we
+
+324
+00:11:16,639 --> 00:11:20,639
+move over to the right hand side, we'll
+
+325
+00:11:18,159 --> 00:11:22,319
+see empty. Usually, when you see empty,
+
+326
+00:11:20,639 --> 00:11:24,720
+you mean that something's not quite
+
+327
+00:11:22,320 --> 00:11:26,560
+right. Um, in this case, we need a
+
+328
+00:11:24,720 --> 00:11:28,720
+collision shape to find. So, we'll just
+
+329
+00:11:26,559 --> 00:11:31,838
+click on this collision shape, empty,
+
+330
+00:11:28,720 --> 00:11:34,000
+and then choose a rectangle shape for my
+
+331
+00:11:31,839 --> 00:11:35,600
+um character. Now that I have the shape,
+
+332
+00:11:34,000 --> 00:11:37,440
+I'm just going to zoom in with my scroll
+
+333
+00:11:35,600 --> 00:11:39,519
+wheel and the middle mouse to get myself
+
+334
+00:11:37,440 --> 00:11:42,000
+in place. And I'm just going to drag the
+
+335
+00:11:39,519 --> 00:11:44,879
+corners of this out to match my
+
+336
+00:11:42,000 --> 00:11:47,039
+rectangle sprite. One of the coolest
+
+337
+00:11:44,879 --> 00:11:48,879
+things about GDAU that doesn't actually
+
+338
+00:11:47,039 --> 00:11:51,039
+exist in some other game engines like
+
+339
+00:11:48,879 --> 00:11:53,759
+Unity is that once we have this
+
+340
+00:11:51,039 --> 00:11:55,838
+selected, the hierarchy is super
+
+341
+00:11:53,759 --> 00:11:57,600
+important within this. If I try and
+
+342
+00:11:55,839 --> 00:12:00,000
+click and drag, you'll see that I'm only
+
+343
+00:11:57,600 --> 00:12:02,159
+dragging one of the parts of it. I could
+
+344
+00:12:00,000 --> 00:12:04,399
+click and drag again and move this over,
+
+345
+00:12:02,159 --> 00:12:06,319
+but the actual player itself is still
+
+346
+00:12:04,399 --> 00:12:08,559
+centered in here. And we can see that
+
+347
+00:12:06,320 --> 00:12:10,800
+from the transform at zero pixels and
+
+348
+00:12:08,559 --> 00:12:12,559
+zero pixels. So I'm just going to undo
+
+349
+00:12:10,799 --> 00:12:14,399
+both those changes and move it back to
+
+350
+00:12:12,559 --> 00:12:16,000
+the center. What I'd like to be able to
+
+351
+00:12:14,399 --> 00:12:18,399
+do is just make sure that when I click
+
+352
+00:12:16,000 --> 00:12:20,799
+on it, I move only the player. And this
+
+353
+00:12:18,399 --> 00:12:23,759
+is a cool thing up here, this group
+
+354
+00:12:20,799 --> 00:12:25,919
+selected nodes button on the top of the
+
+355
+00:12:23,759 --> 00:12:27,519
+panel here. If I click that with the
+
+356
+00:12:25,919 --> 00:12:29,519
+player selected, it's going to create
+
+357
+00:12:27,519 --> 00:12:31,759
+this little group icon which says
+
+358
+00:12:29,519 --> 00:12:33,600
+children are not selectable. And that's
+
+359
+00:12:31,759 --> 00:12:35,519
+incredibly useful for being able to move
+
+360
+00:12:33,600 --> 00:12:38,079
+this around. So, anytime I click on a
+
+361
+00:12:35,519 --> 00:12:40,399
+sprite, I'm able to choose the top level
+
+362
+00:12:38,078 --> 00:12:42,559
+that I've chosen as grouped, and then
+
+363
+00:12:40,399 --> 00:12:44,559
+the others won't be moved around. This
+
+364
+00:12:42,559 --> 00:12:46,399
+can be a a common mistake when we start
+
+365
+00:12:44,559 --> 00:12:48,719
+making video games where we accidentally
+
+366
+00:12:46,399 --> 00:12:51,200
+move the sprite stuff rather than the
+
+367
+00:12:48,720 --> 00:12:53,278
+actual whole object stuff. And if you do
+
+368
+00:12:51,200 --> 00:12:55,759
+mess up, it's quite easy to go and check
+
+369
+00:12:53,278 --> 00:12:57,600
+what the transform or the position is
+
+370
+00:12:55,759 --> 00:13:00,159
+for each of the children object. And
+
+371
+00:12:57,600 --> 00:13:02,240
+they should all be at 0 0 relative to
+
+372
+00:13:00,159 --> 00:13:04,000
+the parent player. So, I'm just going to
+
+373
+00:13:02,240 --> 00:13:06,399
+zoom out just a little bit and move this
+
+374
+00:13:04,000 --> 00:13:08,480
+player into the sort of close to the top
+
+375
+00:13:06,399 --> 00:13:10,399
+center of the screen. And then we're
+
+376
+00:13:08,480 --> 00:13:12,000
+going to see if we can play our game.
+
+377
+00:13:10,399 --> 00:13:13,759
+Now, it's really, really simple to play
+
+378
+00:13:12,000 --> 00:13:15,600
+the game. If I click this run current
+
+379
+00:13:13,759 --> 00:13:18,559
+scene, we'll see that we actually get a
+
+380
+00:13:15,600 --> 00:13:20,800
+pop-up window that pops up that shows me
+
+381
+00:13:18,559 --> 00:13:23,679
+actual game. Super exciting so far, but
+
+382
+00:13:20,799 --> 00:13:25,439
+we will make it better. Don't worry. The
+
+383
+00:13:23,679 --> 00:13:27,278
+different ways that you can see that
+
+384
+00:13:25,440 --> 00:13:29,360
+game can be controlled over this game
+
+385
+00:13:27,278 --> 00:13:32,159
+view tab. So if we click on this
+
+386
+00:13:29,360 --> 00:13:34,800
+embedding options, I chose to have this
+
+387
+00:13:32,159 --> 00:13:37,278
+embed game on next play and make current
+
+388
+00:13:34,799 --> 00:13:39,120
+the game workspace floating. So when we
+
+389
+00:13:37,278 --> 00:13:41,759
+hit play, this is like the old version
+
+390
+00:13:39,120 --> 00:13:44,000
+of good. Um when you hit play, you'll
+
+391
+00:13:41,759 --> 00:13:46,159
+get this brand new dockable and movable
+
+392
+00:13:44,000 --> 00:13:48,399
+window that pops up that has the game
+
+393
+00:13:46,159 --> 00:13:50,559
+running in it. There are other options
+
+394
+00:13:48,399 --> 00:13:52,958
+within the game window, including things
+
+395
+00:13:50,559 --> 00:13:56,000
+like keeping the aspect ratio and not
+
+396
+00:13:52,958 --> 00:13:57,198
+making it floating. I think for now just
+
+397
+00:13:56,000 --> 00:13:58,720
+the fact that you know that they're
+
+398
+00:13:57,198 --> 00:14:00,000
+there you can play around with them
+
+399
+00:13:58,720 --> 00:14:02,399
+particularly when you want to change the
+
+400
+00:14:00,000 --> 00:14:04,399
+aspect ratio or the size of your um
+
+401
+00:14:02,399 --> 00:14:05,839
+final output. Sometimes you might need
+
+402
+00:14:04,399 --> 00:14:07,600
+to come back to this. So I just wanted
+
+403
+00:14:05,839 --> 00:14:10,240
+to show you before we moved on. The
+
+404
+00:14:07,600 --> 00:14:12,399
+other option is to hit play. Now I have
+
+405
+00:14:10,240 --> 00:14:15,120
+saved my scene. Um it's over here as
+
+406
+00:14:12,399 --> 00:14:17,039
+level one.tscn. So when I hit play it's
+
+407
+00:14:15,120 --> 00:14:19,120
+going to say no mean scene has been
+
+408
+00:14:17,039 --> 00:14:20,639
+defined. Would you like to select one?
+
+409
+00:14:19,120 --> 00:14:23,120
+You can change it later in project
+
+410
+00:14:20,639 --> 00:14:25,680
+settings under the application category.
+
+411
+00:14:23,120 --> 00:14:27,839
+So if I say select current, then every
+
+412
+00:14:25,679 --> 00:14:30,638
+time I hit this main play button, it
+
+413
+00:14:27,839 --> 00:14:33,199
+will choose level one.tscn
+
+414
+00:14:30,639 --> 00:14:35,198
+as my main scene. So if I say select
+
+415
+00:14:33,198 --> 00:14:38,159
+current, we get the game running again,
+
+416
+00:14:35,198 --> 00:14:40,078
+but it's running level 1.tscn.
+
+417
+00:14:38,159 --> 00:14:43,198
+Again, you can change that. If you go to
+
+418
+00:14:40,078 --> 00:14:46,719
+project project settings
+
+419
+00:14:43,198 --> 00:14:49,838
+under the uh run option, you'll see that
+
+420
+00:14:46,720 --> 00:14:51,440
+we have this main scene is level 1.tscn.
+
+421
+00:14:49,839 --> 00:14:53,279
+I wanted to show you this because a lot
+
+422
+00:14:51,440 --> 00:14:54,880
+of people get well down the line and
+
+423
+00:14:53,278 --> 00:14:56,240
+then don't realize how to change this.
+
+424
+00:14:54,879 --> 00:14:57,759
+So, I would did want to show you right
+
+425
+00:14:56,240 --> 00:15:00,079
+at the beginning just so you can come
+
+426
+00:14:57,759 --> 00:15:01,838
+back to this quickly. So, we've shown
+
+427
+00:15:00,078 --> 00:15:03,198
+you quite a bit already. Um, but we've
+
+428
+00:15:01,839 --> 00:15:05,360
+gone pretty slow and it's the most
+
+429
+00:15:03,198 --> 00:15:07,039
+boring game I've ever seen. Um, in order
+
+430
+00:15:05,360 --> 00:15:08,959
+to give this some sort of behavior in
+
+431
+00:15:07,039 --> 00:15:10,480
+order to make it do something. Um, right
+
+432
+00:15:08,958 --> 00:15:12,000
+now it just sits in the middle because
+
+433
+00:15:10,480 --> 00:15:13,920
+it doesn't do anything. We've not told
+
+434
+00:15:12,000 --> 00:15:15,600
+it to. Um, what we're going to do is
+
+435
+00:15:13,919 --> 00:15:17,519
+we're going to add our first script. So,
+
+436
+00:15:15,600 --> 00:15:19,040
+if we select player, there's a few ways
+
+437
+00:15:17,519 --> 00:15:21,360
+that you can add scripts. You can click
+
+438
+00:15:19,039 --> 00:15:23,039
+on attach new or existing script to the
+
+439
+00:15:21,360 --> 00:15:25,440
+selected node, this little icon up the
+
+440
+00:15:23,039 --> 00:15:27,759
+very top. Or you can rightclick and you
+
+441
+00:15:25,440 --> 00:15:29,760
+can say attach script. You can even
+
+442
+00:15:27,759 --> 00:15:32,000
+write the script already as a resource
+
+443
+00:15:29,759 --> 00:15:34,720
+and then attach it later on. Every
+
+444
+00:15:32,000 --> 00:15:36,639
+single um object that you see on your
+
+445
+00:15:34,720 --> 00:15:38,079
+level, every single object down the
+
+446
+00:15:36,639 --> 00:15:40,240
+bottom, you can see this is where the
+
+447
+00:15:38,078 --> 00:15:42,879
+scripts go. Um and that's where you can
+
+448
+00:15:40,240 --> 00:15:45,120
+add or remove them. I'm going to add it
+
+449
+00:15:42,879 --> 00:15:47,120
+just by clicking on this add script.
+
+450
+00:15:45,120 --> 00:15:48,959
+Now, you'll notice that the path that it
+
+451
+00:15:47,120 --> 00:15:50,720
+puts it in, this is one of the annoying
+
+452
+00:15:48,958 --> 00:15:52,559
+things about GDO, is it doesn't let me
+
+453
+00:15:50,720 --> 00:15:54,639
+change this. So, it's trying to put the
+
+454
+00:15:52,559 --> 00:15:56,000
+script in the scenes folder. I'm going
+
+455
+00:15:54,639 --> 00:15:58,720
+to change that by hitting a little
+
+456
+00:15:56,000 --> 00:16:00,879
+folder. I'm going to go up one so that
+
+457
+00:15:58,720 --> 00:16:02,879
+we go into the resources and then I'm
+
+458
+00:16:00,879 --> 00:16:05,120
+going to make myself a new folder and
+
+459
+00:16:02,879 --> 00:16:07,198
+I'm going to call this scripts. I do
+
+460
+00:16:05,120 --> 00:16:08,799
+like to keep myself organized. It's
+
+461
+00:16:07,198 --> 00:16:11,198
+going to give it a name, the same name
+
+462
+00:16:08,799 --> 00:16:13,278
+as the node. So, it's a good idea that
+
+463
+00:16:11,198 --> 00:16:17,359
+you have renamed that to something other
+
+464
+00:16:13,278 --> 00:16:19,120
+than um character body 2D. So, uh mine
+
+465
+00:16:17,360 --> 00:16:21,600
+is called player.gd. And I'm just going
+
+466
+00:16:19,120 --> 00:16:23,759
+to click open. You'll notice as well
+
+467
+00:16:21,600 --> 00:16:25,440
+that there's a template option. So, if
+
+468
+00:16:23,759 --> 00:16:27,360
+it doesn't come up with this basic
+
+469
+00:16:25,440 --> 00:16:29,360
+movement template for you, it's because
+
+470
+00:16:27,360 --> 00:16:31,519
+this is unteed. So, take it and then
+
+471
+00:16:29,360 --> 00:16:33,278
+just choose from that list the basic
+
+472
+00:16:31,519 --> 00:16:35,519
+movement. That will give us most of what
+
+473
+00:16:33,278 --> 00:16:38,159
+we need straight out of the box. If we
+
+474
+00:16:35,519 --> 00:16:40,240
+click create now, that script will pop
+
+475
+00:16:38,159 --> 00:16:42,480
+up and we get to take a quick look at
+
+476
+00:16:40,240 --> 00:16:44,480
+what it does. So, you may recognize
+
+477
+00:16:42,480 --> 00:16:46,079
+this. It looks a little bit like Python.
+
+478
+00:16:44,480 --> 00:16:47,440
+Let's see what it actually does and then
+
+479
+00:16:46,078 --> 00:16:50,159
+we can work out how it does it through
+
+480
+00:16:47,440 --> 00:16:51,920
+the code. So, once again, I'm back into
+
+481
+00:16:50,159 --> 00:16:54,399
+2D and I'm just going to click play the
+
+482
+00:16:51,919 --> 00:16:55,919
+current scene. You'll notice that the uh
+
+483
+00:16:54,399 --> 00:16:57,360
+little player falls straight out of the
+
+484
+00:16:55,919 --> 00:16:59,838
+bottom, which is cool. It's exactly what
+
+485
+00:16:57,360 --> 00:17:01,680
+we want. If you run it again and you use
+
+486
+00:16:59,839 --> 00:17:04,078
+the right and left arrow keys, you'll
+
+487
+00:17:01,679 --> 00:17:06,399
+also see that it does have movement. You
+
+488
+00:17:04,078 --> 00:17:09,119
+can see that all inside the script. The
+
+489
+00:17:06,400 --> 00:17:11,839
+script just has um some basic constants
+
+490
+00:17:09,119 --> 00:17:13,759
+for the speed and the jump velocity. Um
+
+491
+00:17:11,838 --> 00:17:15,918
+the physics process which runs every
+
+492
+00:17:13,759 --> 00:17:18,640
+single frame. This will happen over and
+
+493
+00:17:15,919 --> 00:17:20,799
+over and over and over. The key thing is
+
+494
+00:17:18,640 --> 00:17:24,559
+it gets some input.
+
+495
+00:17:20,798 --> 00:17:27,359
+It then chooses uh a direction based on
+
+496
+00:17:24,558 --> 00:17:30,079
+um the input from the UI left and UI
+
+497
+00:17:27,359 --> 00:17:32,959
+right actions which are the by default
+
+498
+00:17:30,079 --> 00:17:35,439
+the arrow keys. And then it uses this
+
+499
+00:17:32,960 --> 00:17:37,279
+move and slide. Now before we go into
+
+500
+00:17:35,440 --> 00:17:39,919
+anything else, one of the coolest things
+
+501
+00:17:37,279 --> 00:17:42,399
+about GDO is that you can hold control
+
+502
+00:17:39,919 --> 00:17:44,880
+and click on anything inside of your
+
+503
+00:17:42,400 --> 00:17:47,280
+code and it will take you to the help.
+
+504
+00:17:44,880 --> 00:17:49,280
+So for example, if I controllclick on
+
+505
+00:17:47,279 --> 00:17:52,399
+the character body 2D, it takes me to
+
+506
+00:17:49,279 --> 00:17:54,879
+the character body 2D documentation. If
+
+507
+00:17:52,400 --> 00:17:57,120
+I click back on player.gd, it'll take me
+
+508
+00:17:54,880 --> 00:17:59,679
+straight back there. And say for example
+
+509
+00:17:57,119 --> 00:18:01,678
+I didn't understand what is on floor was
+
+510
+00:17:59,679 --> 00:18:03,440
+I could control-click on it. It'll take
+
+511
+00:18:01,679 --> 00:18:05,840
+me to the place in the documentation and
+
+512
+00:18:03,440 --> 00:18:08,000
+it'll give me something to read which
+
+513
+00:18:05,839 --> 00:18:09,519
+will explain how it works. Now this is
+
+514
+00:18:08,000 --> 00:18:11,599
+incredibly
+
+515
+00:18:09,519 --> 00:18:13,359
+powerful and super useful. So when you
+
+516
+00:18:11,599 --> 00:18:15,279
+do get given scripts like this or you
+
+517
+00:18:13,359 --> 00:18:17,038
+see other people's scripts just make
+
+518
+00:18:15,279 --> 00:18:19,759
+sure that you understand that you can
+
+519
+00:18:17,038 --> 00:18:21,839
+find help on this very very very quickly
+
+520
+00:18:19,759 --> 00:18:23,200
+just by using the control button. And
+
+521
+00:18:21,839 --> 00:18:25,199
+this is really powerful and really
+
+522
+00:18:23,200 --> 00:18:27,919
+useful. If you don't want any of these
+
+523
+00:18:25,200 --> 00:18:30,000
+anymore, it is possible just to get rid
+
+524
+00:18:27,919 --> 00:18:31,520
+of them to close that specific one so
+
+525
+00:18:30,000 --> 00:18:34,319
+that you can get rid of them and clear
+
+526
+00:18:31,519 --> 00:18:36,000
+your pile your um files up here so that
+
+527
+00:18:34,319 --> 00:18:38,159
+you can access them a little bit quicker
+
+528
+00:18:36,000 --> 00:18:39,440
+rather than having too much of a mess.
+
+529
+00:18:38,160 --> 00:18:40,798
+So, the game's still a little bit
+
+530
+00:18:39,440 --> 00:18:42,720
+rubbish because we fall off the bottom
+
+531
+00:18:40,798 --> 00:18:46,639
+of the screen. So, I'll go back into 2D
+
+532
+00:18:42,720 --> 00:18:48,400
+over here and then we'll just make uh
+
+533
+00:18:46,640 --> 00:18:50,080
+our effort to make it a little bit
+
+534
+00:18:48,400 --> 00:18:51,360
+better.
+
+535
+00:18:50,079 --> 00:18:52,720
+So, I think what I'll do is I'll
+
+536
+00:18:51,359 --> 00:18:54,399
+actually make myself some sort of
+
+537
+00:18:52,720 --> 00:18:56,160
+platform to stand on. I'm going to do it
+
+538
+00:18:54,400 --> 00:18:57,840
+the simplest possible way in the intro
+
+539
+00:18:56,160 --> 00:19:00,000
+video, and then we're going to make tile
+
+540
+00:18:57,839 --> 00:19:01,918
+maps in the next one. So, let's start
+
+541
+00:19:00,000 --> 00:19:04,558
+with just this level one. So, the
+
+542
+00:19:01,919 --> 00:19:06,960
+player's already um on my level one as a
+
+543
+00:19:04,558 --> 00:19:09,359
+child. Let's also add another child
+
+544
+00:19:06,960 --> 00:19:11,360
+node. This time, we want a static body
+
+545
+00:19:09,359 --> 00:19:14,719
+because we want something that will work
+
+546
+00:19:11,359 --> 00:19:16,798
+against or be allow us to stand on it.
+
+547
+00:19:14,720 --> 00:19:19,519
+So the static body 2D you can see is a
+
+548
+00:19:16,798 --> 00:19:21,599
+2D um physics body that can't be moved
+
+549
+00:19:19,519 --> 00:19:23,839
+by external forces. That's exactly what
+
+550
+00:19:21,599 --> 00:19:26,399
+we want. So if I click static body 2D
+
+551
+00:19:23,839 --> 00:19:29,279
+and click create. Um I'm going to rename
+
+552
+00:19:26,400 --> 00:19:30,798
+this one. So if I hit F2, call this
+
+553
+00:19:29,279 --> 00:19:34,240
+platform because that's what it's going
+
+554
+00:19:30,798 --> 00:19:36,000
+to be. And then with platform selected,
+
+555
+00:19:34,240 --> 00:19:37,519
+you'll see the exclamation mark. It's
+
+556
+00:19:36,000 --> 00:19:39,679
+saying it doesn't have a collision shape
+
+557
+00:19:37,519 --> 00:19:41,359
+and also can't see it. We've solved this
+
+558
+00:19:39,679 --> 00:19:43,679
+problem before. You probably already
+
+559
+00:19:41,359 --> 00:19:46,319
+know. We need to add a child node of a
+
+560
+00:19:43,679 --> 00:19:48,880
+sprite 2D so that we can see it. The
+
+561
+00:19:46,319 --> 00:19:50,879
+sprite 2D, again, I'm going to be lazy
+
+562
+00:19:48,880 --> 00:19:53,280
+and I'm going to drag icon straight on
+
+563
+00:19:50,880 --> 00:19:54,640
+over here. Um, I'm leaving it in the
+
+564
+00:19:53,279 --> 00:19:56,558
+center, but what I'm going to do is I'm
+
+565
+00:19:54,640 --> 00:19:58,320
+just going to make it longer and I'm
+
+566
+00:19:56,558 --> 00:20:01,038
+going to make it thinner. So, I'm going
+
+567
+00:19:58,319 --> 00:20:03,599
+to just drag it down till it's uh just
+
+568
+00:20:01,038 --> 00:20:05,359
+above that line and up. Something like
+
+569
+00:20:03,599 --> 00:20:06,959
+that. That looks like a platform to me.
+
+570
+00:20:05,359 --> 00:20:08,399
+You can make them any shape you want. It
+
+571
+00:20:06,960 --> 00:20:10,558
+really doesn't matter as long as the
+
+572
+00:20:08,400 --> 00:20:12,320
+collision shape matches it. I haven't
+
+573
+00:20:10,558 --> 00:20:14,639
+made the collision shape yet. So, right
+
+574
+00:20:12,319 --> 00:20:17,678
+click, add child node, and I'm going to
+
+575
+00:20:14,640 --> 00:20:19,440
+choose collision shape 2D. Once you've
+
+576
+00:20:17,679 --> 00:20:21,519
+made the collision shape, you're going
+
+577
+00:20:19,440 --> 00:20:24,480
+to need to choose the shape type. So,
+
+578
+00:20:21,519 --> 00:20:26,558
+over on shape shape again, click on
+
+579
+00:20:24,480 --> 00:20:28,798
+empty and change that to rectangle
+
+580
+00:20:26,558 --> 00:20:30,558
+shape. And I'm just going to make this
+
+581
+00:20:28,798 --> 00:20:32,240
+all the way over to this side and all
+
+582
+00:20:30,558 --> 00:20:35,119
+the way over to this side so it
+
+583
+00:20:32,240 --> 00:20:37,839
+approximately matches. I may actually
+
+584
+00:20:35,119 --> 00:20:40,479
+just leave Yeah, I'll leave that as it
+
+585
+00:20:37,839 --> 00:20:42,959
+is. That's pretty good. So I control S
+
+586
+00:20:40,480 --> 00:20:45,279
+to save my scene. Click on platform
+
+587
+00:20:42,960 --> 00:20:47,679
+again. And do not forget we need to
+
+588
+00:20:45,279 --> 00:20:49,918
+change this group selected node so that
+
+589
+00:20:47,679 --> 00:20:52,080
+we group the platform. So when we click
+
+590
+00:20:49,919 --> 00:20:54,559
+on it, we're dragging the whole thing
+
+591
+00:20:52,079 --> 00:20:57,359
+around rather than just the children of
+
+592
+00:20:54,558 --> 00:20:59,519
+that. Um, so there it is. We've got a
+
+593
+00:20:57,359 --> 00:21:01,599
+fairly simple platform. I just drag it
+
+594
+00:20:59,519 --> 00:21:03,918
+down. Pop it there. And then we'll test
+
+595
+00:21:01,599 --> 00:21:05,839
+our game. So I'm going to hit the play
+
+596
+00:21:03,919 --> 00:21:07,759
+button here. You'll see that the player
+
+597
+00:21:05,839 --> 00:21:09,918
+drops down. And then I can move right,
+
+598
+00:21:07,759 --> 00:21:12,158
+left. And believe it or not, if I hit
+
+599
+00:21:09,919 --> 00:21:14,000
+space, I can jump. So, we nearly have a
+
+600
+00:21:12,159 --> 00:21:16,559
+game. But because the game's pretty
+
+601
+00:21:14,000 --> 00:21:18,480
+rubbish, um I want the camera to follow
+
+602
+00:21:16,558 --> 00:21:20,798
+this player because otherwise it's going
+
+603
+00:21:18,480 --> 00:21:23,038
+to be pretty boring. Um I could put as
+
+604
+00:21:20,798 --> 00:21:26,639
+many of these down as I wanted to. If I
+
+605
+00:21:23,038 --> 00:21:28,798
+hold um control D, I can duplicate and
+
+606
+00:21:26,640 --> 00:21:31,759
+make another platform, which I might do,
+
+607
+00:21:28,798 --> 00:21:33,759
+and just control D again, go over here,
+
+608
+00:21:31,759 --> 00:21:37,359
+maybe put this one a little bit higher,
+
+609
+00:21:33,759 --> 00:21:38,640
+and save my scene. And then I'll fold
+
+610
+00:21:37,359 --> 00:21:42,000
+these all the way so it looks a little
+
+611
+00:21:38,640 --> 00:21:44,000
+bit neater. Um, then with the player, I
+
+612
+00:21:42,000 --> 00:21:46,159
+want the camera to be attached to the
+
+613
+00:21:44,000 --> 00:21:47,919
+player. Now, the way that these always
+
+614
+00:21:46,159 --> 00:21:49,760
+work is that if you have a child of
+
+615
+00:21:47,919 --> 00:21:51,840
+something, so when the player moves the
+
+616
+00:21:49,759 --> 00:21:54,720
+sprite 2D child and the collision shape
+
+617
+00:21:51,839 --> 00:21:56,480
+2D child moves with it, we can also do
+
+618
+00:21:54,720 --> 00:21:59,360
+that with the camera. If I right click
+
+619
+00:21:56,480 --> 00:22:01,839
+on the player and I add a child node and
+
+620
+00:21:59,359 --> 00:22:03,759
+choose camera 2D, you'll see that this
+
+621
+00:22:01,839 --> 00:22:06,240
+time when I put the camera on as a
+
+622
+00:22:03,759 --> 00:22:08,240
+child, it will be stuck to the player.
+
+623
+00:22:06,240 --> 00:22:10,798
+You'll notice as well that we have a new
+
+624
+00:22:08,240 --> 00:22:13,359
+purple window that is showing where the
+
+625
+00:22:10,798 --> 00:22:16,079
+camera actually is because I added the
+
+626
+00:22:13,359 --> 00:22:18,639
+camera into the scene as a child. It's
+
+627
+00:22:16,079 --> 00:22:20,319
+centered itself into that player. So,
+
+628
+00:22:18,640 --> 00:22:23,600
+hitting play now, you'll see that the
+
+629
+00:22:20,319 --> 00:22:26,000
+camera moves along with the main player.
+
+630
+00:22:23,599 --> 00:22:28,079
+So I can move along my level as far as I
+
+631
+00:22:26,000 --> 00:22:29,919
+like and the camera follows. And the
+
+632
+00:22:28,079 --> 00:22:33,759
+last thing in this video, which has been
+
+633
+00:22:29,919 --> 00:22:35,919
+pretty short and uh pretty boring, um is
+
+634
+00:22:33,759 --> 00:22:37,679
+that we can add some extra property to
+
+635
+00:22:35,919 --> 00:22:40,240
+this camera 2D to make it look a bit
+
+636
+00:22:37,679 --> 00:22:42,559
+cooler. So the camera 2D also has
+
+637
+00:22:40,240 --> 00:22:44,400
+position smoothing and rotation
+
+638
+00:22:42,558 --> 00:22:47,038
+smoothing as part of its properties
+
+639
+00:22:44,400 --> 00:22:48,720
+under camera 2D. If we just tick on
+
+640
+00:22:47,038 --> 00:22:51,200
+position smoothing and leave these
+
+641
+00:22:48,720 --> 00:22:53,360
+values as default, currently five pixels
+
+642
+00:22:51,200 --> 00:22:55,360
+per second, you should get a much nicer
+
+643
+00:22:53,359 --> 00:22:57,279
+effect. Playing it now, you'll see a
+
+644
+00:22:55,359 --> 00:22:58,959
+little bit of drift with the camera
+
+645
+00:22:57,279 --> 00:23:01,440
+where it doesn't stick straight to the
+
+646
+00:22:58,960 --> 00:23:03,200
+player. It just changes slightly and
+
+647
+00:23:01,440 --> 00:23:05,919
+moves towards it, which looks a lot more
+
+648
+00:23:03,200 --> 00:23:07,679
+realistic and feels a lot nicer to play.
+
+649
+00:23:05,919 --> 00:23:09,120
+So, that's it for video one. Hopefully,
+
+650
+00:23:07,679 --> 00:23:11,759
+you've learned a little bit about the
+
+651
+00:23:09,119 --> 00:23:13,519
+editor. You've add added some nodes.
+
+652
+00:23:11,759 --> 00:23:15,759
+You've learned about how nodes have
+
+653
+00:23:13,519 --> 00:23:18,400
+particular purposes and you've managed
+
+654
+00:23:15,759 --> 00:23:20,240
+to work out how to use the play buttons
+
+655
+00:23:18,400 --> 00:23:22,159
+and some of the project settings. So
+
+656
+00:23:20,240 --> 00:23:24,159
+hopefully that's enough for video. Um
+
+657
+00:23:22,159 --> 00:23:26,159
+we'll be doing some coding next in the
+
+658
+00:23:24,159 --> 00:23:29,280
+next one as we make this game look
+
+659
+00:23:26,159 --> 00:23:32,559
+better and behave like we want it to.
+
+660
+00:23:29,279 --> 00:23:32,558
+See you in the next one.
